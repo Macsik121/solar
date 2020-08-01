@@ -1,0 +1,94 @@
+.reviews {
+  margin-top: 120px;
+  padding: 100px 0;
+  background-image: linear-gradient(to right, #005083, #22b977);
+  text-align: center;
+}
+
+.reviews .quotes {
+  font-size: 100px;
+  letter-spacing: 3px;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+.reviews .quote {
+  max-width: 780px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+.reviews h3, .reviews h4 {
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.reviews h3 {
+  margin-top: 40px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.reviews h4 {
+  opacity: .7;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.reviews .review {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.reviews .review .arrow {
+  width: 10px;
+  height: 20px;
+  cursor: pointer;
+  filter: invert(.5);
+}
+
+.reviews .review .arrow1 {
+  position: absolute;
+  right: -25px;
+  bottom: 9px;
+}
+
+.reviews .review .arrow2 {
+  position: absolute;
+  bottom: 9px;
+  left: -25px;
+}
+
+.reviews .reviewsperson {
+  overflow: hidden;
+  margin: 30px auto 0 auto;
+}
+
+.reviews .reviewsperson img {
+  width: 45px;
+  height: 45px;
+}
+
+.reviews .reviewsperson img + img {
+  margin-left: 15px;
+}
+
+.reviews .reviewsperson .activeimg {
+  width: 70px;
+  height: 70px;
+}

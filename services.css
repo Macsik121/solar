@@ -3,14 +3,18 @@
   text-align: center;
 }
 
-.services h3 {
-  margin-top: 20px;
-  max-width: 371px;
+.services img {
+  margin-bottom: 20px;
+}
+
+.services h3 a {
+  margin: 0 auto;
   font-size: 18px;
   letter-spacing: 1px;
   color: #1d1d1d;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 
 .services p {
@@ -36,12 +40,6 @@
   align-items: flex-end;
   justify-content: space-between;
   margin-top: 75px;
-}
-
-@media (min-width: 320px) {
-  .wrap {
-    padding: 0;
-  }
 }
 
 @media (max-width: 480px) {

@@ -1,8 +1,35 @@
+.projects {
+  margin-top: 120px
+}
+
 .slider {
   width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.projects .wrap h2 a {
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #1d1d1d;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  width: 225px;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .projects .wrap h2 a {
+    font-size: 24px;
+  }
 }
 
 .slider img {
   width: 25%;
-  margin: 0 -2px;
+}
+
+.projects .button {
+  text-align: center;
+  margin-top: 60px;
 }
