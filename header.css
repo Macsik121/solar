@@ -55,7 +55,7 @@
   display: inline-block;
 }
 
-@media (max-width: 685px) {
+@media (max-width: 750px) {
   .header nav ul {
     display: flex;
     flex-direction: column;
