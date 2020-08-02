@@ -15,22 +15,37 @@
 
 .contactus h2 {
   text-align: center;
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #413d4b;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+.contactus a {
+  color: #000;
+  text-decoration: none;
 }
 
 .contactus address {
   font-style: normal;
 }
 
-.contactus address:nth-child(1) {
+.contactus .address address:nth-child(1) {
   margin-top: 80px;
 }
 
-.contactus address:nth-child(2) {
+.contactus .address address:nth-child(2) {
   margin-top: 40px;
 }
 
-.contactus address + address {
-  margin-top: 15px;
+.contactus .address address + address {
+  opacity: .7;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
 }
 
 .contactus .gmaps {
@@ -60,7 +75,8 @@
   letter-spacing: 1px;
   color: #413d4b;
   font-weight: 300;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
+  transition: 300ms;
 }
 
 .contactus .form label {
@@ -71,7 +87,7 @@
   letter-spacing: 1px;
   color: rgba(65, 61, 75, .5);
   font-weight: 300;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   pointer-events: none;
   transition: 300ms;
 }
@@ -91,14 +107,14 @@
   letter-spacing: 1px;
   color: #413d4b;
   font-weight: 300;
-  width: 91%;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   height: 315px;
 }
 
 .contactus .form .inputTxt {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  width: 100%;
 }
 
 .contactus .form .inputTxt label {
@@ -111,6 +127,14 @@
   transform: translateY(-27px);
   padding: 0 10px;
   background: #FFF;
+}
+
+.contactus .form .input input:focus {
+  transform: translateX(5px);
+}
+
+.contactus .form .input3 {
+  margin-left: 5px;
 }
 
 .contactus .button {

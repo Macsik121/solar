@@ -1,4 +1,4 @@
-.button a {
+.button button {
   line-height: 30px;
   font-size: 16px;
   color: #ffffff;
@@ -8,9 +8,11 @@
   padding: 10px 30px;
   background: #07b569;
   display: inline-block;
+  border: none;
+  cursor: pointer;
   transition: 500ms;
 }
 
-.button a:hover {
+.button button:hover {
   opacity: .7;
 }

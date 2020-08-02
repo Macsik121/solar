@@ -10,9 +10,8 @@
   position: relative;
 }
 
-.about .about-img img {
-  display: block;
-  max-width: 42.4%;
+.about .aboutimg img {
+  width: 100%;
 }
 
 .about .aboutimg::before {
@@ -20,7 +19,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  width: 86%;
+  width: 100%;
   height: 99%;
   display: block;
   background: linear-gradient(to left, rgba(0, 80, 131, .39), rgba(34, 185, 119, .39));
@@ -50,7 +49,7 @@
   opacity: .7;
 }
 
-.about .about-btn a {
+.about .about-btn .button {
   margin-top: 50px;
 }
 
@@ -62,14 +61,6 @@
   .about .about-btn {
     flex-basis: calc(100% - 42.5% - 30px);
   }
-  .about .aboutimg img {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .about .aboutimg img::before {
-    width: 100%;
-  }
 }
 
 @media (max-width: 769px) {
@@ -79,16 +70,11 @@
     text-align: center;
     margin: 0 auto;
   }
-  .about .aboutimg img {
-    width: 100%;
-    height: 100%;
-    margin: 60px auto 0 auto;
-    display: inline-block;
-    text-align: center;
+  .about .aboutimg {
+    margin: 65px auto 0 auto;
   }
-  .about .aboutimg img::before {
-    height: 10000%;
-    width: 10000px;
+  .about .aboutimg::before {
+    height: 99%;
   }
   .about div {
     width: 100%;

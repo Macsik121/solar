@@ -50,7 +50,7 @@
 .reviews .review {
   display: flex;
   align-items: center;
-  width: 320px;
+  width: 240px;
   margin: 0 auto;
   position: relative;
 }
@@ -60,17 +60,16 @@
   height: 20px;
   cursor: pointer;
   filter: invert(.5);
+  bottom: 15px;
 }
 
 .reviews .review .arrow1 {
   position: absolute;
   right: -25px;
-  bottom: 9px;
 }
 
 .reviews .review .arrow2 {
   position: absolute;
-  bottom: 9px;
   left: -25px;
 }
 
@@ -79,16 +78,32 @@
   margin: 30px auto 0 auto;
 }
 
-.reviews .reviewsperson img {
+.reviews .reviwesperson .slide {
   width: 45px;
   height: 45px;
+  border-radius: 50%;
 }
 
-.reviews .reviewsperson img + img {
+.reviews .reviewsperson .slide1 {
+  background-color: black;
+}
+
+.reviews .reviewsperson .slide2 {
+  background-color: black;
+}
+
+.reviews .reviewsperson .slide3 {
+  background-color: black;
+}
+
+.reviews .reviewsperson .slide4 {
+  background-color: black;
+}
+
+.reviews .reviewsperson .slide5 {
+  background-color: black;
+}
+
+.reviews .reviewsperson div + div {
   margin-left: 15px;
-}
-
-.reviews .reviewsperson .activeimg {
-  width: 70px;
-  height: 70px;
 }

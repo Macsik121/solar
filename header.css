@@ -26,7 +26,7 @@
   font-size: 14px;
   line-height: 30px;
   font-weight: 700;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   text-decoration: none;
 }
 
@@ -100,11 +100,11 @@
   font-size: 54px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   text-align: center;
   margin: 200px auto 50px auto;
 }
 
-.header h1 span {
+.header h2 span {
   font-weight: bold;
 }

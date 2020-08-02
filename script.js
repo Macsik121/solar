@@ -10,13 +10,12 @@ $('.slider').slick({
 });
 
 $('.reviewsperson').slick({
+  centerMode: true,
+  centerPadding: '48px',
   infinite: true,
-	slidesToShow: 5,
+	slidesToShow: 3,
   slidesTOScroll: 1,
   arrows: true,
   nextArrow: '<img class="arrow arrow1" src="img/icons/arrowforward.webp" alt="Previous person">',
   prevArrow: '<img class="arrow arrow2" src="img/icons/arrowback.webp" alt="Next person">',
-  focusOnSelect: true
 });
-
-console.log(450 / 980 * 100);
