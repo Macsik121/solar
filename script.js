@@ -13,9 +13,9 @@ $('.reviewsperson').slick({
   centerMode: true,
   centerPadding: '48px',
   infinite: true,
-	slidesToShow: 3,
+  slidesToShow: 3,
   slidesTOScroll: 1,
   arrows: true,
-  nextArrow: '<img class="arrow arrow1" src="img/icons/arrowforward.webp" alt="Previous person">',
-  prevArrow: '<img class="arrow arrow2" src="img/icons/arrowback.webp" alt="Next person">',
+  nextArrow: '<img class="arrow arrow1" src="arrowforward.webp" alt="Previous person">',
+  prevArrow: '<img class="arrow arrow2" src="arrowback.webp" alt="Next person">',
 });
