@@ -1,5 +1,5 @@
 .header {
-  background: url(img/bg/header.webp) center no-repeat;
+  background: url(header.webp) center no-repeat;
   background-size: cover;
   position: relative;
 }
