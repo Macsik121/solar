@@ -62,6 +62,10 @@ ul {
   z-index: 1;
 }
 
+.header nav {
+  display: flex;
+}
+
 .header nav ul {
   display: flex;
   align-items: center;
@@ -110,6 +114,7 @@ ul {
   border: none;
   cursor: pointer;
   transition: 500ms;
+  margin-left: 60px;
 }
 
 .header .button .btn:hover {
@@ -117,6 +122,9 @@ ul {
 }
 
 @media (max-width: 759px) {
+  .header nav {
+    display: block;
+  }
   .header nav ul {
     display: flex;
     flex-direction: column;
@@ -130,7 +138,7 @@ ul {
     margin-left: 25px;
   }
   .header nav ul li:last-of-type {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
   .header nav ul li a {
     transition: 500ms;
@@ -144,6 +152,7 @@ ul {
   }
   .header .button .btn {
     padding: 0 15px;
+    margin-left: 20px;
     font-size: 11px;
   }
 }
