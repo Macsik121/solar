@@ -53,12 +53,18 @@
   .services .row2 {
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 0;
   }
   .services .row2 .service6 {
     margin-top: 40px;
   }
   .services .service2, .services .service5 {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services .row2 {
     margin-top: 40px;
   }
 }
